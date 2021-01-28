@@ -1,0 +1,33 @@
+.lead__road {
+  color: red;
+  position: absolute;
+  top: 458px;
+  width: 95%;
+  height: 27%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__road {
+    top: 445px;
+    width: 884px;
+    height: 248px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__road {
+    top: 454px;
+    width: 731px;
+    height: 202px;
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__road {
+    top: 231px;
+    width: 304px;
+    height: 85px;
+    
+  }
+} 

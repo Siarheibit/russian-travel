@@ -1,0 +1,19 @@
+.lead__capiton {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  margin: 8px 0 0 0;
+   letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: white;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__capiton {
+   margin: 8px 0 0 16px; 
+
+  }
+}
