@@ -1,33 +1,30 @@
 .lead__road {
-  color: red;
   position: absolute;
-  top: 458px;
+  top: 45%;
   width: 95%;
-  height: 27%;
+  /* object-fit: contain; */
 }
 
 @media screen and (max-width: 1024px) {
   .lead__road {
-    top: 445px;
-    width: 884px;
-    height: 248px;
+    top: 45%;
+    max-width: 884px;
+    /* max-height: 248px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__road {
-    top: 454px;
-    width: 731px;
-    height: 202px;
-    
+    top: 50%;
+    max-width: 731px;
+    /* max-height: 202px; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__road {
-    top: 231px;
-    width: 304px;
-    height: 85px;
-    
+    top: 53%;
+    max-width: 304px;
+    /* max-height: 85px; */
   }
-} 
+}

@@ -11,9 +11,17 @@
   align-self: flex-start;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .lead__capiton {
+   margin-left: 4.5%;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__capiton {
-   margin: 8px 0 0 16px; 
+   margin-left: 4.5%;
 
   }
 }

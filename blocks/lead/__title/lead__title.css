@@ -1,8 +1,6 @@
 .lead__title {
   margin: 0;
-
-  width: 720px;
-  height: 200px;
+  width: 73%;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -10,13 +8,12 @@
   line-height: 100px;
   text-align: center;
   color: white;
-        object-fit: contain;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 766px) {
   .lead__title {
-    width: 288px;
-    height: 88px;
+    width: 90%;
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
