@@ -1,0 +1,41 @@
+.place__paragraph {
+  max-width: 100%;
+  grid-area: place__paragraph;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  margin: 0;
+
+  /* grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4; */
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+font-size: 16px;
+padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__paragraph {
+    padding: 0;
+    margin: 32px 16px 25px 16px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+}

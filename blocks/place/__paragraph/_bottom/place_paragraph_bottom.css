@@ -1,0 +1,13 @@
+.place__paragraph_bottom {
+  grid-area: place__paragraph_bottom;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .place__paragraph_bottom {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+}

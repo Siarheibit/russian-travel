@@ -1,4 +1,28 @@
 @font-face {
+	src: url(../../vendor/fonts/Inter-Regular.woff2);
+  font-family: 'inter';
+}
+
+@font-face {
+	src: url(../../vendor/fonts/Inter-BlackItalic.woff2);
+  font-family: 'inter';
+  font-style: italic;
+}
+
+@font-face {
+	src: url(../../vendor/fonts/Inter-Bold.woff2);
+  font-family: 'inter';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../../vendor/fonts/Inter-BoldItalic.woff2);
+   font-family: 'inter';
+	font-style: italic;
+	font-weight: bold;
+}
+
+@font-face {
 	src: url(../../vendor/fonts/Inter-Regular.woff);
   font-family: 'inter';
 }
