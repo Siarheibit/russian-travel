@@ -1,4 +1,4 @@
-.footer_column {
+.footer__column {
   display: flex;
   justify-content: space-between;
 
@@ -6,21 +6,21 @@
 
 
 @media screen and (max-width: 1024px) {
-  .footer_column {
+  .footer__column {
     max-width: 928px;
 margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .footer_column {
+  .footer__column {
     max-width: 720px;
     margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .footer_column {
+  .footer__column {
 
 flex-direction: column;
    

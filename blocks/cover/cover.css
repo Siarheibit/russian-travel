@@ -1,12 +1,14 @@
 .cover {
-  max-width: 1184px;
+    max-width: 1184px;
   max-height: 740px;
-  margin: 77px auto 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 
 
 
+@media screen and (max-width: 320px) {
+  .cover {
+  margin: 0;
+  }
+}
