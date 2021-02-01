@@ -1,8 +1,6 @@
 .header {
   display: flex;
   margin: 28px 48px 48px 48px;
-  border-style: solid;
-  border-color: red;
   align-items: flex-end;
   justify-content: space-between;
   max-width: 1280px;
@@ -23,7 +21,6 @@
 @media screen and (min-width: 1281px) {
   .header {
     width: 1184px;
-  margin: 28px auto 48px auto;
- 
+    margin: 28px auto 48px auto;
   }
 }
