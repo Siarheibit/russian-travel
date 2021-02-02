@@ -1,8 +1,9 @@
 .cover__overlay {
 text-decoration: none; 
+ background: rgba(42, 44, 47, 0.2);
 }
 
 
 .cover__overlay:hover {
-  background: rgba(42, 44, 47, 0.7);
+  background: rgba(42, 44, 47, 0.8);
 }

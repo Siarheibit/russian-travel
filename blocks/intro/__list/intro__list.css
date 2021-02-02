@@ -6,8 +6,9 @@
   line-height: 150%;
   color: #ffffff;
   list-style-type: none;
-  padding: 0 0 10% 0;
+  padding: 0;
   margin: 0;
+  
 }
 
 @media screen and (max-width: 1024px) {

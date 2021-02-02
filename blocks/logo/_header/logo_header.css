@@ -1,6 +1,17 @@
 .logo_header {
+padding-left: 48px;
+}
 
 
+@media screen and (max-width: 768px) {
+  .logo_header {
+padding-left: 24px;
+  }
+}
 
-
+@media screen and (max-width: 320px) {
+  .logo_header {
+   padding-left: 16px; 
+  
+  }
 }

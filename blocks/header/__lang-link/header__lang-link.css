@@ -6,6 +6,7 @@
   line-height: 117%;
   color: #ffffff;
   padding-right: 18px;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {

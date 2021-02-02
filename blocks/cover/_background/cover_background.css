@@ -4,27 +4,26 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   max-height: 740px;
-  
+
 }
 
-
-  @media screen and (max-width: 1024px) {
-    .cover_background {
-  max-width: 1024px;
+@media screen and (max-width: 1024px) {
+  .cover_background {
+    max-width: 1024px;
     max-height: 640px;
-    }
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .cover_background {
-  max-width: 768px;
-     max-height: 480px;
-    }
+@media screen and (max-width: 768px) {
+  .cover_background {
+    max-width: 768px;
+    max-height: 480px;
   }
+}
 
-  @media screen and (max-width: 320px) {
-    .cover_background {
+@media screen and (max-width: 320px) {
+  .cover_background {
     max-width: 320px;
-    max-height: 320px; 
-    } 
+    max-height: 320px;
   }
+}
