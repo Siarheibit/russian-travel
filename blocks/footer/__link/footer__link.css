@@ -1,25 +1,28 @@
 .footer__link {
-font-family: 'Inter';
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 112%;
-color: #FFFFFF;
-text-decoration: none;
-transition: 0.5s;
-padding: 0 18px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+  padding-right: 18px;
+}
 
- }
-
- .footer__link:hover {
-
+.footer__link:hover {
   opacity: 20%;
 }
 
-
 @media screen and (max-width: 600px) {
   .footer__link {
+    line-height: 250%;
+  }
+}
 
-
+@media screen and (max-width: 360px) {
+  .footer__link {
+    line-height: 250%;
+    padding-right: 100px;
   }
 }

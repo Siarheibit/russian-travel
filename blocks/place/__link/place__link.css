@@ -1,6 +1,12 @@
 .place__link {
- list-style-type: none;
- align-self:end;
- padding: 0;
- margin: 0;
+  list-style-type: none;
+  align-self: end;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .place__link {
+    justify-self: self-start;
+  }
 }

@@ -5,26 +5,16 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  text-align: center;
+
   color: #ffffff;
-  margin: 245px auto 32px auto;
+  margin: 0;
+  padding-bottom: 32px;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin: 195px auto 32px auto;
-  }
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   .cover__title {
-    margin: 115px auto 32px auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__title {
+    padding: 33ppx 0 16px 0;
     font-size: 32px;
-    margin: 33px auto 16px auto;
   }
 }

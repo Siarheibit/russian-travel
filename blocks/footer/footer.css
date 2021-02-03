@@ -2,12 +2,10 @@
   max-width: 1184px;
   width: 100%;
   padding: 0px 0 24px 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .lead {
-    max-width: 100%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,7 +14,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
   .footer {
+flex-direction: column;
+align-items:flex-start;
   }
 }
