@@ -4,13 +4,12 @@
 
 @media screen and (max-width: 768px) {
   .header__lang-links {
-padding-right: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-links {
     padding-right: 16px;
-  
   }
 }
