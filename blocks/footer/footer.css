@@ -1,7 +1,7 @@
 .footer {
   max-width: 1184px;
   width: 100%;
-  padding: 0px 0 24px 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,16 +14,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .footer {
-    align-items: center;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .footer {
     align-items: flex-start;
-    flex-direction: column;
   }
 }

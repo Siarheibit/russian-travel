@@ -10,7 +10,7 @@
 }
 
 .place__paragraph:nth-last-child(1) {
-  margin: 24px 0 0 0;
+  margin: 24px 12px 0 12pxs;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,9 +29,6 @@
 @media screen and (max-width: 600px) {
   .place__paragraph {
     padding: 0;
-    margin: 32px 16px 25px 16px;
-  }
-  .place__paragraph:nth-last-child(1) {
-    margin: 32px 16px 0 16px;
+    margin: 32px 12px 25px 12px;
   }
 }

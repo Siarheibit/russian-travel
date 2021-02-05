@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 670px) {
   .place__link {
-
+padding: 0 16px 32px 16px;
     justify-self: self-start;
   }
 }
