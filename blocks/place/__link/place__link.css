@@ -5,8 +5,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .place__link {
+
     justify-self: self-start;
   }
 }

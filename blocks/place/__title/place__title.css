@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-max-width: 440px;
-width: 100%;
+    max-width: 440px;
+    width: 100%;
   }
 }
 
@@ -21,19 +21,22 @@ width: 100%;
     font-size: 42px;
     line-height: 110%;
     max-width: 250px;
-  
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .place__title {
-    margin-left: 16px;
     line-height: 109%;
     max-width: 288px;
     font-size: 32px;
-    margin: 0 16px 0 16px;
-
-    grid-row-start: 1;
+       grid-row-start: 1;
     grid-row-end: 1;
+    margin: auto;
   }
 }
+
+
+@media screen and (max-width:320px) {
+  .place__title {
+    margin: 0 16px 0 16px;
+  }

@@ -2,18 +2,4 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1184px;
-  min-height: 740px;
-}
-
-@media screen and (max-width: 500px) {
-  .cover_background {
-    min-height: 300px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover_background {
-    min-height: 200px;
-  }
 }
