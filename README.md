@@ -1,4 +1,4 @@
-h1 Проект 3: Путешествия по России
+# Проект 3: Путешествия по России
 
 
 
@@ -11,13 +11,13 @@ h1 Проект 3: Путешествия по России
 
 **используемые технологии**
 ---
-1. HTML
-2. CSS
-3. Flex
-4. Grid
+:white_check_mark: HTML
+:white_check_mark: CSS
+:white_check_mark:. Flex
+:white_check_mark: Grid
 ---
 
-ссылка на  сайт - [Путешествия по России] (https://siarheibit.github.io/russian-travel/)
+ссылка на  сайт - [Путешествия по России](https://siarheibit.github.io/russian-travel/)
 
 
 
