@@ -21,7 +21,8 @@
   .place {
     max-width: 720px;
     grid-column-gap: 28px;
-     padding-bottom: 73px;
+    padding-bottom: 73px;
+}
 }
 
 @media screen and (max-width: 670px) {
