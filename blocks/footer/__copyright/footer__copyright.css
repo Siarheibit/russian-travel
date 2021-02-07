@@ -1,27 +1,27 @@
 .footer__copyright {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 114%;
-  color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1184px) {
-  .footer__copyright {
-    padding: 0 48px 0 16px;
-  }
+    .footer__copyright {
+        padding: 0 48px 0 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .footer__copyright {
-    padding: 0 24px 0 16px;
-  }
+    .footer__copyright {
+        padding: 0 24px 0 16px;
+    }
 }
 
 @media screen and (max-width: 720px) {
-  .footer__copyright {
-    min-width: 186px;
-    padding: 48px 0 0 16px;
-    margin: 0;
-  }
+    .footer__copyright {
+        min-width: 186px;
+        padding: 48px 0 24px 16px;
+        margin: 0;
+    }
 }

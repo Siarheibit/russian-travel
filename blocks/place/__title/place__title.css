@@ -1,42 +1,47 @@
 .place__title {
-  margin: 0;
-  padding: 0;
-  max-width: 460px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 106%;
-  color: #ffffff;
+    margin: 0;
+    padding: 0;
+    max-width: 460px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__title {
-    max-width: 440px;
-    width: 100%;
-  }
+    .place__title {
+        max-width: 440px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  .place__title {
-    font-size: 52px;
-    line-height: 110%;
-    max-width: 340px;
-  }
+    .place__title {
+        font-size: 52px;
+        line-height: 110%;
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+    }
 }
 
 @media screen and (max-width: 670px) {
-  .place__title {
-   padding: 0 16px 0 16px;
-    line-height: 109%;
-    max-width: 288px;
-    font-size: 32px;
-    grid-row-start: 1;
-    grid-row-end: 1;
-  }
+    .place__title {
+        padding: 0;
+        margin: 0 16px 0 16px;
+        line-height: 109%;
+        max-width: 288px;
+        font-size: 32px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .place__title {
-
-  }
+    .place__title {}
 }

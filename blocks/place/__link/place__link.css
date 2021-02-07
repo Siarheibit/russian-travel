@@ -1,13 +1,18 @@
 .place__link {
-  list-style-type: none;
-  align-self: end;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    align-self: end;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 670px) {
-  .place__link {
-padding: 0 16px 32px 16px;
-    justify-self: self-start;
-  }
+    .place__link {
+        margin: 0 16px 32px 16px;
+        justify-self: self-start;
+    }
 }
