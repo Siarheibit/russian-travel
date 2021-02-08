@@ -1,5 +1,5 @@
 .place__paragraph {
-    margin: 48px 25px 0 0;
+    margin: 48px 0 0 0;
     max-width: 485px;
     font-style: normal;
     font-weight: normal;
@@ -17,18 +17,24 @@
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
-        margin: 32px 16px 0px 0;
+        /* margin: 32px 16px 0 16px; */
     }
 }
 
 @media screen and (max-width: 670px) {
     .place__paragraph {
-        margin-left: 16px;
+        max-width: 352px;
+        font-size: 16px;
+        margin: 32px 16px 0 16px;
     }
 }
 
+
+
+
 @media screen and (max-width: 320px) {
     .place__paragraph {
-        margin-bottom: 0;
+        
+        margin: 32px 16px 0 16px;
     }
 }

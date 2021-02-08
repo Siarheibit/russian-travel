@@ -12,6 +12,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead__capiton {
-    margin-left: 4.5%;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__capiton {
+    margin-left: 16px;
   }
 }
